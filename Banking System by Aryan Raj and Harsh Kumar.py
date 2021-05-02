@@ -4,7 +4,7 @@ Created on Sat Nov 21 10:17:15 2020
 @author: Aryan Raj
 """
 import mysql.connector
-print("WELCOME TO OUR BANK-ARYAN RAJ, HARSH KUMAR & NIKHIL RAJ")
+print("WELCOME TO OUR BANK-ARYAN RAJ")
 a=str(input("enter  mysql password of"))
 
 mydb=mysql.connector.connect(host="localhost",user="root",passwd=a)
